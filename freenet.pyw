@@ -67,6 +67,7 @@ class VPNConfigGUI:
         self.MIRRORS = {
             "barry-far": "https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/All_Configs_Sub.txt",
             "SoliSpirit": "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/all_configs.txt",
+            "mahdibland": "https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge.txt",
             #"mrvcoder": "https://raw.githubusercontent.com/mrvcoder/V2rayCollector/refs/heads/main/mixed_iran.txt",
             #"MatinGhanbari": "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt",
         }
