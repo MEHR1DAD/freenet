@@ -35,8 +35,8 @@ jobs:
 
       - name: Create ZIP
         run: |
-          zip -r freenet-windows.zip dist/freenet.exe xray.exe
-        shell: bash
+          7z a -tzip freenet-windows.zip ./dist/freenet.exe ./xray.exe
+        shell: cmd
 
       - name: Create Release
         id: create_release
