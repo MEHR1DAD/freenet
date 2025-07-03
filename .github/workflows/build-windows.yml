@@ -23,10 +23,10 @@ jobs:
           pip install pyinstaller
           pip install -r requirements.txt
 
-      - name: Download Xray for Windows
+      - name: Download and Extract Xray for Windows
         run: |
           curl -L -o xray.zip https://github.com/XTLS/Xray-core/releases/download/v1.8.4/xray-windows-64.zip
-          unzip xray.zip xray.exe
+          unzip -o xray.zip xray.exe
         shell: bash
 
       - name: Build with PyInstaller
